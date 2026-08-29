@@ -5,9 +5,9 @@ import { IconMail, IconPhone, IconPin } from "./icons";
 
 // TODO: remplacer par les vraies coordonnées de l'entreprise
 const CONTACT_INFO = [
-  { icon: IconPhone, label: "+00 0 00 00 00 00" },
-  { icon: IconMail, label: "contact@kissezo.com" },
-  { icon: IconPin, label: "Adresse à définir" },
+  { icon: IconPhone, label: "+229 0166619404" },
+  { icon: IconMail, label: "kissezoservices@gmail.com" },
+  { icon: IconPin, label: "Atrokpocodji, Abomey-Calavi, Bénin" },
 ];
 
 export function ContactSection() {

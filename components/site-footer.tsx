@@ -1,6 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
-import { IconFacebook, IconInstagram } from "./icons";
+import { IconFacebook, IconInstagram, IconTiktok } from "./icons";
 
 const LINKS = [
   { href: "#accueil", label: "Accueil" },
@@ -34,18 +34,25 @@ export function SiteFooter() {
             <div className="mt-6 flex items-center gap-3">
               {/* TODO: remplacer par les vrais liens des réseaux sociaux */}
               <Link
-                href="#"
+                href="https://www.facebook.com/profile.php?id=100094552705151"
                 aria-label="Facebook"
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand-orange hover:text-ink"
               >
                 <IconFacebook className="h-4 w-4" />
               </Link>
               <Link
-                href="#"
+                href="https://www.instagram.com/kissezoservices"
                 aria-label="Instagram"
                 className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand-orange hover:text-ink"
               >
                 <IconInstagram className="h-4 w-4" />
+              </Link>
+              <Link
+                href="https://www.tiktok.com/@kisszo.services?_r=1&_t=ZS-99IdJYNJaZm"
+                aria-label="TikTok"
+                className="inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/10 text-white transition-colors hover:bg-brand-orange hover:text-ink"
+              >
+                <IconTiktok className="h-4 w-4" />
               </Link>
             </div>
           </div>
@@ -70,9 +77,9 @@ export function SiteFooter() {
             <p className="text-sm font-bold text-white">Contact</p>
             {/* TODO: remplacer par les vraies coordonnées */}
             <ul className="mt-4 space-y-2.5 text-sm text-white/60">
-              <li>+00 0 00 00 00 00</li>
-              <li>contact@kissezo.com</li>
-              <li>Adresse à définir</li>
+              <li>+229 0166619404</li>
+              <li>kissezoservices@gmail.com</li>
+              <li>Atrokpocodji, Abomey-Calavi, Bénin</li>
             </ul>
           </div>
         </div>
